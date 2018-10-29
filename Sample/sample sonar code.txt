@@ -1,0 +1,40 @@
+start  = 1;              % note you could simply use 1 below 
+ finish = length(array);  % note you could put length(array) below 
+ 
+ for i = start:finish     % default is to count by 1's 
+ 
+   if (array(i) == search)  % note: for non-integers we would not use == 
+ 
+     fprintf('found the item\n');   % note: we often would not print 
+                                   % the value, simply return it (if we 
+                                   % were in a function). 
+   end % if 
+ 
+ end % for 
+
+start  = 1;              % note you could simply use 1 below 
+ finish = length(array);  % note you could put length(array) below 
+ 
+ for i = start:finish     % default is to count by 1's 
+ 
+   if (array(i) == search)  % note: for non-integers we would not use == 
+ 
+     fprintf('found the item\n');   % note: we often would not print 
+                                   % the value, simply return it (if we 
+                                   % were in a function). 
+   end % if 
+ 
+ end % for 
+start  = 1;              % note you could simply use 1 below 
+ finish = length(array);  % note you could put length(array) below 
+ 
+ for i = start:finish     % default is to count by 1's 
+ 
+   if (array(i) == search)  % note: for non-integers we would not use == 
+ 
+     fprintf('found the item\n');   % note: we often would not print 
+                                   % the value, simply return it (if we 
+                                   % were in a function). 
+   end % if 
+ 
+ end % for 
